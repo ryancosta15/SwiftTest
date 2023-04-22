@@ -11,7 +11,7 @@ func iMultiply() {
 
         switch (oper) {
             case 1:
-                print("(i). Quanto é (num1) + (num2)?")
+                print("\(i). Quanto é \(num1) + \(num2)?")
                 print("Sua resposta: ", terminator: "")
                 if (num1 + num2 == Int(readLine()!)) {
                     print("Correto!")
@@ -20,7 +20,7 @@ func iMultiply() {
                     print("Errado!")
                 }
             case 2:
-                print("(i). Quanto é (num1) - (num2)?")
+                print("\(i). Quanto é \(num1) - \(num2)?")
             print("Sua resposta: ", terminator: "")
                 if (num1 - num2 == Int(readLine()!)) {
                     print("Correto!")
@@ -29,7 +29,7 @@ func iMultiply() {
                     print("Errado!")
                 }
             case 3:
-                print("(i). Quanto é (num1) * (num2)?")
+                print("\(i). Quanto é \(num1) * \(num2)?")
                 print("Sua resposta: ", terminator: "")
                 if (num1 * num2 == Int(readLine()!)) {
                     print("Correto!")
@@ -43,5 +43,5 @@ func iMultiply() {
         print("")
     }
 
-    print("Você acertou: (pontos)")
+    print("Você acertou: \(pontos)")
 }
